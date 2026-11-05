@@ -1,0 +1,117 @@
+# REQUIRED CONFIG
+BOT_TOKEN = ""
+OWNER_ID = 0
+TELEGRAM_API = 0
+TELEGRAM_HASH = ""
+
+# OPTIONAL CONFIG
+DEFAULT_LANG = "en"
+TG_PROXY = None  # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
+USER_SESSION_STRING = ""
+CMD_SUFFIX = ""
+AUTHORIZED_CHATS = ""
+SUDO_USERS = ""
+STATUS_LIMIT = 10
+DEFAULT_UPLOAD = "rc"
+STATUS_UPDATE_INTERVAL = 15
+ALLDEBRID_NO_SEED_TIMEOUT = 180
+EXCLUDED_EXTENSIONS = ""
+INC_TASK_NOTIFY = False
+YT_DLP_OPTIONS = ""
+USE_SERVICE_ACCOUNTS = False
+
+# Disable Options
+DISABLE_LEECH = False
+DISABLE_SEED = False
+DISABLE_FF_MODE = False
+DISABLE_RSS = False
+DISABLE_YTDLP = False
+DISABLE_PLUGINS = False
+
+# Plugins
+PLUGIN_INDEXES = []
+
+# Memory
+MEM_BUDGET = 0
+MEM_DEEP_STATS = False
+
+# Telegraph
+AUTHOR_NAME = "WZML-X"
+AUTHOR_URL = "https://t.me/WZML_X"
+
+# Task Limits
+DIRECT_LIMIT = 0
+YTDLP_LIMIT = 0
+LEECH_LIMIT = 0
+EXTRACT_LIMIT = 0
+ARCHIVE_LIMIT = 0
+STORAGE_LIMIT = 0
+
+# CPU limit for background services (YTDLP). Default: 20
+CPU_LIMIT = 20
+
+# Image Search
+USE_IMAGES = False
+IMG_SEARCH = ""
+IMG_PAGE = 1
+IMG_SOURCES = ["wallpaperflare"]
+
+# Insta video downloader api
+INSTADL_API = ""
+
+# Media Search
+# Optional: Set IMDB_TEMPLATE to use old HTML format instead of Rich Messages.
+# If empty (default), IMDb uses Rich Messages with tables and collapsible sections.
+IMDB_TEMPLATE = ""
+
+# Task Tools
+FORCE_SUB_IDS = ""
+MEDIA_STORE = True
+DELETE_LINKS = False
+
+# Limiters
+BOT_MAX_TASKS = 0
+USER_MAX_TASKS = 0
+USER_TIME_INTERVAL = 0
+VERIFY_TIMEOUT = 0
+
+# Crash Reporting
+ENABLE_TELEMETRY = True  # Send crash reports to remote worker
+
+# Bot Settings
+BOT_PM = False
+SET_COMMANDS = True
+TIMEZONE = "Asia/Kolkata"
+
+# YT Tools
+YT_DESP = "Uploaded to YouTube by WZML-X bot"
+YT_TAGS = ["telegram", "bot", "youtube"]  # or as a comma-separated string
+YT_CATEGORY_ID = 22
+YT_PRIVACY_STATUS = "unlisted"
+
+# Leech
+LEECH_SPLIT_SIZE = 0
+AS_DOCUMENT = False
+EQUAL_SPLITS = False
+MEDIA_GROUP = False
+TRANSMISSION_MODE = "both"
+LEECH_PREFIX = ""
+LEECH_SUFFIX = ""
+LEECH_FONT = ""
+LEECH_CAPTION = ""
+AUTO_THUMBNAIL = True 
+
+# Log Channels
+LEECH_LOG_CHAT = ""
+# Named leech dump chats, selectable per task with the -ud flag.
+# The chosen chat becomes the primary upload destination for the task.
+# Format: {"name": chat_id}
+LEECH_DUMP_CHATS = {
+    # "A": -1001234567890,
+    # "B": -1009876543210,
+}
+
+# Queueing system
+QUEUE_ALL = 0
+QUEUE_DOWNLOAD = 0
+QUEUE_UPLOAD = 0
